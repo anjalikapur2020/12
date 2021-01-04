@@ -142,7 +142,7 @@ function draw(){
 }
 function mouseDragged(){
     if(gamestate!="launched"){
-        Matter.Body.setPosition(Hexagon.body, {x: mouseX , y: mouseY});
+        Matter.Body.setPosition(this.Hexagon, {x: mouseX , y: mouseY});
     }
     }
 
